@@ -20,6 +20,6 @@ public class CustOneController {
     @GetMapping("/hello")
     public String custOneDemo(){
 
-        return "service-ribbon:"+custOneService.CustOneDemo("");
+        return "service-ribbon:"+custOneService.custOneDemo("");
     }
 }

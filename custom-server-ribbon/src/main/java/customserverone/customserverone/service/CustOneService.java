@@ -5,7 +5,7 @@ package customserverone.customserverone.service;
  */
 public interface CustOneService {
 
-     String CustOneDemo(String name);
+     String custOneDemo(String name);
 
      String errorMesage(String name);
 }

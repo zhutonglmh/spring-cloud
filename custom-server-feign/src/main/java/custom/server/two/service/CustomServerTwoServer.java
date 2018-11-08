@@ -13,5 +13,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 public interface CustomServerTwoServer {
 
     @GetMapping(value = "demo/demo")
-    String CustomServerTwoServerDemo();
+    String customServerTwoServerDemo();
 }

@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 public class CustomServerTwoServerHystric implements CustomServerTwoServer {
 
     @Override
-    public String CustomServerTwoServerDemo() {
+    public String customServerTwoServerDemo() {
         return "哈哈哈哈哈，聪明的人类，我是断路器";
     }
 }

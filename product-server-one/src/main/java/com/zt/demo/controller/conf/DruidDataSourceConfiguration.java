@@ -11,6 +11,7 @@ import java.sql.SQLException;
 
 /**
  * dataSource 数据源配置
+ * @author 朱同
  */
 @Configuration
 @Data
@@ -18,8 +19,6 @@ public class DruidDataSourceConfiguration {
 
 	@Value("${spring.datasource.druid.filters}")
 	private String filters ;
-//	@Value("${spring.datasource.druid.exceptionSorter}")
-//	private String exceptionSorter;
 	/**
 	 * @see org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.Tomcat
 	 * @return DruidDataSource
@@ -32,7 +31,6 @@ public class DruidDataSourceConfiguration {
 		try {
 			System.out.println(filters);
 			dataSource.setFilters(filters);
-//			dataSource.setExceptionSorter(exceptionSorter);
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}

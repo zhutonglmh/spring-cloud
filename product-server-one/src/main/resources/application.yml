@@ -13,8 +13,20 @@ spring:
     #服务名称
     name: product-server
 
+  #redis 配置
+  redis:
+    host: 106.14.72.179
+    password: redispassword
+    port: 6379
+    jedis:
+      pool:
+        max-idle: 100
+        min-idle: 1
+        max-active: 1000
+        max-wait: -1ms
+
   datasource:
-    url: jdbc:mysql://localhost:3306/mysql-zt?useSSL=false&allowMultiQueries=true&rewriteBatchedStatements=true
+    url: jdbc:mysql://localhost:3306/zt_demo?useSSL=false&allowMultiQueries=true&rewriteBatchedStatements=true
     username: root
     password: zhutong960607
     driver-class-name: com.mysql.jdbc.Driver

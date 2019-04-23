@@ -23,7 +23,7 @@
         </javaTypeResolver>
 
         <!-- targetProject:生成PO类的位置 -->
-        <javaModelGenerator targetPackage="com.zt.demo.entity"
+        <javaModelGenerator targetPackage="studyserverone.study01.shiro.server"
                             targetProject="src/main/java">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="false" />
@@ -34,19 +34,19 @@
            如果maven工程只是单独的一个工程，targetProject="src/main/java"
            若果maven工程是分模块的工程，targetProject="所属模块的名称"，例如：
            targetProject="ecps-manager-dao"，下同-->
-        <sqlMapGenerator targetPackage="com.zt.demo.mapper"
+        <sqlMapGenerator targetPackage="studyserverone.study01.shiro.server"
                          targetProject="src/main/java">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="false" />
         </sqlMapGenerator>
         <!-- targetPackage：mapper接口生成的位置 -->
         <javaClientGenerator type="XMLMAPPER"
-                             targetPackage="com.zt.demo.dao"
+                             targetPackage="studyserverone.study01.shiro.server"
                              targetProject="src/main/java">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
             <property name="enableSubPackages" value="false" />
         </javaClientGenerator>
         <!-- 指定数据库表 -->
-        <table schema="" tableName="scm_daily_stat"></table>
+        <table schema="" tableName="user"></table>
     </context>
 </generatorConfiguration>

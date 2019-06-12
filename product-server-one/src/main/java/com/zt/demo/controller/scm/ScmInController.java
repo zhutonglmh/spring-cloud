@@ -1,6 +1,5 @@
 package com.zt.demo.controller.scm;
 
-import com.zt.demo.entity.ScmIn;
 import com.zt.demo.service.ScmInService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

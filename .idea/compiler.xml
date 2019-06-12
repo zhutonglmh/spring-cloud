@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="config-server" />
+        <module name="product-server-one" />
+        <module name="custom-server-ribbon" />
+        <module name="custom-server-feign" />
+        <module name="product-server-two" />
+        <module name="zuul-server" />
+        <module name="study-server-one" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-server" target="1.8" />
+      <module name="custom-server-feign" target="1.8" />
+      <module name="custom-server-ribbon" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="product-server-one" target="1.8" />
+      <module name="product-server-two" target="1.8" />
+      <module name="spring-cloud" target="1.8" />
+      <module name="study-server-one" target="1.8" />
+      <module name="zuul-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-server" options="-parameters" />
+      <module name="custom-server-feign" options="-parameters" />
+      <module name="custom-server-ribbon" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="product-server-one" options="-parameters" />
+      <module name="product-server-two" options="-parameters" />
+      <module name="study-server-one" options="-parameters" />
+      <module name="zuul-server" options="-parameters" />
+    </option>
+  </component>
+</project>

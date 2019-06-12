@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-server-feign/custom-server-feign.iml" filepath="$PROJECT_DIR$/custom-server-feign/custom-server-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-server-ribbon/custom-server-ribbon.iml" filepath="$PROJECT_DIR$/custom-server-ribbon/custom-server-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-server-one/product-server-one.iml" filepath="$PROJECT_DIR$/product-server-one/product-server-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-server-two/product-server-two.iml" filepath="$PROJECT_DIR$/product-server-two/product-server-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-server-one/study-server-one.iml" filepath="$PROJECT_DIR$/study-server-one/study-server-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-server/zuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/zuul-server.iml" />
+    </modules>
+  </component>
+</project>

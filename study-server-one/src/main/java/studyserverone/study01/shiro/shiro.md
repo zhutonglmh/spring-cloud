@@ -18,3 +18,15 @@ CREATE TABLE `study01-zt`.`user`  (
 );
 INSERT INTO `study01-zt`.`user`(`id`, `user_name`, `pass_word`, `role`) VALUES (1, 'zhutong', '123456', 'admin');
 INSERT INTO `study01-zt`.`user`(`id`, `user_name`, `pass_word`, `role`) VALUES (2, 'limeihua', '123456', 'user');
+
+
+
+shiro提供了类似Spring的Cache抽象
+
+
+
+
+
+
+
+

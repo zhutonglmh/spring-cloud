@@ -1,7 +1,5 @@
 package com.zt.demo.service;
 
-import com.zt.demo.entity.ScmIn;
-
 /**
  * @author zhutong
  * @date 2018/12/21 16:57

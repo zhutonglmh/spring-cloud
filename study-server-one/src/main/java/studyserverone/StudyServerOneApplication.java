@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  * @author 朱同 启动类
  */
 @SpringBootApplication
-@MapperScan({"studyserverone.study01.shiro.server"})
+@MapperScan({"studyserverone.study01.shiro.server","studyserverone.easyPOI.dao"})
 @Component("studyserverone")
 public class StudyServerOneApplication {
     

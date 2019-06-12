@@ -1,7 +1,5 @@
 package com.zt.demo.service.impl;
 
-import com.zt.demo.dao.ScmInMapper;
-import com.zt.demo.entity.ScmIn;
 import com.zt.demo.service.ScmInService;
 import org.springframework.stereotype.Service;
 

@@ -6,6 +6,8 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 spring:
+  profiles:
+    active: dataSource
   application:
     #服务名称
     name: product-server
@@ -22,36 +24,36 @@ spring:
         max-active: 1000
         max-wait: -1ms
 
-  datasource:
-    url: jdbc:mysql://localhost:3306/study01-zt?useSSL=false&allowMultiQueries=true&rewriteBatchedStatements=true
-    username: root
-    password: zhutong960607
-    driver-class-name: com.mysql.jdbc.Driver
-    type: com.alibaba.druid.pool.DruidDataSource
-    initialSize: 5
-    #最小连接池数量
-    minIdle: 5
-    #最大连接池数量
-    maxActive: 20
-    #获取连接时最大等待时间，单位毫秒。配置了maxWait之后，缺省启用公平锁，并发效率会有所下#降，如果需要可以通过配置useUnfairLock属性为true使用非公平锁。
-    maxWait: 60000
-    timeBetweenEvictionRunsMillis: 60000
-    minEvictableIdleTimeMillis: 300000
-    validationQuery: SELECT 1 FROM DUAL
-    testWhileIdle: true
-    testOnBorrow: false
-    testOnReturn: false
-    maxPoolPreparedStatementPerConnectionSize: 20
-    poolPreparedStatements: true
-    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
-    useGlobalDataSourceStat: true
-    druid:
-      exceptionSorter: true
-      filters: stat,wall
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/study01-zt?useSSL=false&allowMultiQueries=true&rewriteBatchedStatements=true
+#    username: root
+#    password: zhutong960607
+#    driver-class-name: com.mysql.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    initialSize: 5
+#    #最小连接池数量
+#    minIdle: 5
+#    #最大连接池数量
+#    maxActive: 20
+#    #获取连接时最大等待时间，单位毫秒。配置了maxWait之后，缺省启用公平锁，并发效率会有所下#降，如果需要可以通过配置useUnfairLock属性为true使用非公平锁。
+#    maxWait: 60000
+#    timeBetweenEvictionRunsMillis: 60000
+#    minEvictableIdleTimeMillis: 300000
+#    validationQuery: SELECT 1 FROM DUAL
+#    testWhileIdle: true
+#    testOnBorrow: false
+#    testOnReturn: false
+#    maxPoolPreparedStatementPerConnectionSize: 20
+#    poolPreparedStatements: true
+#    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+#    useGlobalDataSourceStat: true
+#    druid:
+#      exceptionSorter: true
+#      filters: stat,wall
 mybatis:
   typeAliasesPackage: studyserverone.study01.shiro.server
   mapperLocations: classpath:mybatis/*.xml
-
+  mapperLocations2: classpath:mybatis2/*.xml
 xxl: 
   job:
     accessToken: 

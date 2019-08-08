@@ -1,6 +1,7 @@
 package studyserverone.proxy.proxy;
 
-import com.zt.demo.aopdemo.entity.User;
+
+import studyserverone.proxy.jdkproxy.User;
 
 /**
  * @author zhutong

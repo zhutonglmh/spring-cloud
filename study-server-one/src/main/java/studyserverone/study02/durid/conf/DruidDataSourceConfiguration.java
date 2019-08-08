@@ -12,7 +12,7 @@ import java.sql.SQLException;
  * dataSource 数据源配置
  * @author 朱同
  */
-@Configuration
+//@Configuration
 public class DruidDataSourceConfiguration {
 
 	@Value("${spring.datasource.druid.filters}")

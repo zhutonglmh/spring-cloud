@@ -7,7 +7,9 @@ import org.springframework.context.annotation.Configuration;
 import studyserverone.study01.shiro.server.User;
 import org.apache.shiro.mgt.SecurityManager;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -33,12 +35,15 @@ public class ShiroConfig {
             //游客，开发权限
             filterChainDefinitionMap.put("/guest/**", "anon");
             filterChainDefinitionMap.put("/easy/**", "anon");
+            filterChainDefinitionMap.put("/websocket/**", "anon");
             //用户，需要角色权限 “user”
             filterChainDefinitionMap.put("/user/**", "roles[user]");
             //管理员，需要角色权限 “admin”
             filterChainDefinitionMap.put("/admin/**", "roles[admin]");
             //开放登陆接口
             filterChainDefinitionMap.put("/login", "anon");
+            filterChainDefinitionMap.put("/druid/**", "anon");
+            filterChainDefinitionMap.put("/demo/**", "anon");
             //其余接口一律拦截
             //主要这行代码必须放在所有权限设置的最后，不然会导致所有 url 都被拦截
             filterChainDefinitionMap.put("/**", "authc");
@@ -74,4 +79,29 @@ public class ShiroConfig {
         public ResultMap resultMap(){
             return new ResultMap();
         }
+    
+    public static void main(String[] args) {
+        List<String> sourceList = new ArrayList<String>() {{
+            add("H");
+            add("O");
+            add("L");
+            add("L");
+            add("I");
+            add("S");
+        }};
+        
+        List subList = sourceList.subList(2, 5);
+        System.out.println("sourceList ： " + sourceList);
+        System.out.println("sourceList.subList(2, 5) 得到List ：");
+        System.out.println("subList ： " + subList);
+    
+        subList.add("666");
+        
+        System.out.println("sourceList.add(666) 得到List ：");
+        System.out.println("sourceList ： " + sourceList);
+        subList.add("5555");
+//        System.out.println("subList ： " + subList);
+        
+    }
+    
 }

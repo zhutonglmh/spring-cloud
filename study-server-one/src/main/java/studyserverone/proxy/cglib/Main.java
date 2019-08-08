@@ -1,6 +1,7 @@
 package studyserverone.proxy.cglib;
 
-import com.zt.demo.aopdemo.entity.User;
+
+import studyserverone.proxy.jdkproxy.User;
 
 /**
  * @author zhutong

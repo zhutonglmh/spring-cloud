@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="studyserverone.easyPOI.dao.ScmYearEndMapper" >
-  <resultMap id="BaseResultMap" type="studyserverone.easyPOI.entity.ScmYearEnd" >
+<mapper namespace="studyserverone.easy_poi.dao.ScmYearEndMapper" >
+  <resultMap id="BaseResultMap" type="studyserverone.easy_poi.entity.ScmYearEnd" >
     <id column="id" property="id" jdbcType="VARCHAR" />
     <result column="tenant_id" property="tenantId" jdbcType="VARCHAR" />
     <result column="yearth" property="yearth" jdbcType="VARCHAR" />
@@ -75,7 +75,7 @@
     id, tenant_id, yearth, create_user, create_user_name, create_time, update_user, update_user_name, 
     update_time, delete_flag
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="studyserverone.easyPOI.entity.ScmYearEndExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="studyserverone.easy_poi.entity.ScmYearEndExample" >
     select
     <if test="distinct" >
       distinct
@@ -99,13 +99,13 @@
     delete from scm_year_end
     where id = #{id,jdbcType=VARCHAR}
   </delete>
-  <delete id="deleteByExample" parameterType="studyserverone.easyPOI.entity.ScmYearEndExample" >
+  <delete id="deleteByExample" parameterType="studyserverone.easy_poi.entity.ScmYearEndExample" >
     delete from scm_year_end
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="studyserverone.easyPOI.entity.ScmYearEnd" >
+  <insert id="insert" parameterType="studyserverone.easy_poi.entity.ScmYearEnd" >
     insert into scm_year_end (id, tenant_id, yearth, 
       create_user, create_user_name, create_time, 
       update_user, update_user_name, update_time, 
@@ -115,7 +115,7 @@
       #{updateUser,jdbcType=VARCHAR}, #{updateUserName,jdbcType=VARCHAR}, #{updateTime,jdbcType=TIMESTAMP}, 
       #{deleteFlag,jdbcType=SMALLINT})
   </insert>
-  <insert id="insertSelective" parameterType="studyserverone.easyPOI.entity.ScmYearEnd" >
+  <insert id="insertSelective" parameterType="studyserverone.easy_poi.entity.ScmYearEnd" >
     insert into scm_year_end
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -182,7 +182,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="studyserverone.easyPOI.entity.ScmYearEndExample" resultType="java.lang.Integer" >
+  <select id="countByExample" parameterType="studyserverone.easy_poi.entity.ScmYearEndExample" resultType="java.lang.Integer" >
     select count(*) from scm_year_end
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
@@ -242,7 +242,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="studyserverone.easyPOI.entity.ScmYearEnd" >
+  <update id="updateByPrimaryKeySelective" parameterType="studyserverone.easy_poi.entity.ScmYearEnd" >
     update scm_year_end
     <set >
       <if test="tenantId != null" >
@@ -275,7 +275,7 @@
     </set>
     where id = #{id,jdbcType=VARCHAR}
   </update>
-  <update id="updateByPrimaryKey" parameterType="studyserverone.easyPOI.entity.ScmYearEnd" >
+  <update id="updateByPrimaryKey" parameterType="studyserverone.easy_poi.entity.ScmYearEnd" >
     update scm_year_end
     set tenant_id = #{tenantId,jdbcType=VARCHAR},
       yearth = #{yearth,jdbcType=VARCHAR},

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="studyserverone.easy_poi.dao2.ScmYearEndMapper2" >
+<mapper namespace="studyserverone.easy_poi.dao2.ScmYearEndMapper" >
   <resultMap id="BaseResultMap" type="studyserverone.easy_poi.entity.ScmYearEnd" >
     <id column="id" property="id" jdbcType="VARCHAR" />
     <result column="tenant_id" property="tenantId" jdbcType="VARCHAR" />

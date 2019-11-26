@@ -1,11 +1,10 @@
 package studyserverone;
 
-import org.mybatis.spring.annotation.MapperScan;
+import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.web.servlet.ServletComponentScan;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  * @author 朱同 启动类
@@ -14,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @ServletComponentScan
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
-@EnableTransactionManagement
+//@EnableApolloConfig
 public class StudyServerOneApplication {
     
 

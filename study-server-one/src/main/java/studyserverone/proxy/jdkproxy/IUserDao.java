@@ -9,4 +9,7 @@ package studyserverone.proxy.jdkproxy;
 public interface IUserDao {
     
     void save(User user);
+    static void ss(){
+        System.out.println("123456");
+    };
 }

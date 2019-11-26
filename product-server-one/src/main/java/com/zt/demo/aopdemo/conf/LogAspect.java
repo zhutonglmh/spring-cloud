@@ -1,5 +1,6 @@
 package com.zt.demo.aopdemo.conf;
 
+import com.zt.demo.aopdemo.annotation.MyAnnotation;
 import com.zt.demo.aopdemo.service.UserValidator;
 import com.zt.demo.aopdemo.service.impl.UserValidatorImpl;
 import lombok.extern.slf4j.Slf4j;

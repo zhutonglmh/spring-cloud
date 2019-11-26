@@ -17,6 +17,9 @@ public class Main {
         //代理对象
         UserDao proxy = (UserDao)new CglibProxyFactory(target).getProxyInstance();
         proxy.save(user);
+        
     }
+    
+
    
 }

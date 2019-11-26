@@ -1,12 +1,18 @@
 package studyserverone.easy_poi.dao;
 
 import java.util.List;
+
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 import studyserverone.easy_poi.entity.ScmYearEnd;
 import studyserverone.easy_poi.entity.ScmYearEndExample;
 
+
+@Repository("scmYearEndMapper")
 public interface ScmYearEndMapper {
     int countByExample(ScmYearEndExample example);
+
 
     int deleteByExample(ScmYearEndExample example);
 

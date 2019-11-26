@@ -4,17 +4,14 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.cursor.Cursor;
 import org.apache.ibatis.exceptions.PersistenceException;
 import org.apache.ibatis.executor.BatchResult;
-import org.apache.ibatis.reflection.ExceptionUtil;
 import org.apache.ibatis.session.*;
 import org.mybatis.spring.MyBatisExceptionTranslator;
 import org.mybatis.spring.SqlSessionTemplate;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.dao.support.PersistenceExceptionTranslator;
-import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
 import java.sql.Connection;
 import java.util.List;
 import java.util.Map;
@@ -23,10 +20,9 @@ import static java.lang.reflect.Proxy.newProxyInstance;
 import static org.apache.ibatis.reflection.ExceptionUtil.unwrapThrowable;
 import static org.mybatis.spring.SqlSessionUtils.*;
 
-
 /**
- * @author zhutong
- * @date 2019/8/8 11:59
+ *  这个方法继承自sqlSessionTemplate,主要是重写了getSqlSessionFactory方法,并在getSqlSession时候传入我们用此方法得到的SqlSessionFactory
+ * @author 朱同
  */
 @Slf4j
 public class CustomSqlSessionTemplate extends SqlSessionTemplate {
@@ -54,11 +50,9 @@ public class CustomSqlSessionTemplate extends SqlSessionTemplate {
                                     PersistenceExceptionTranslator exceptionTranslator) {
         
         super(sqlSessionFactory, executorType, exceptionTranslator);
-        
         this.sqlSessionFactory = sqlSessionFactory;
         this.executorType = executorType;
         this.exceptionTranslator = exceptionTranslator;
-        
         this.sqlSessionProxy = (SqlSession) newProxyInstance(
                 SqlSessionFactory.class.getClassLoader(),
                 new Class[]{SqlSession.class},
@@ -67,23 +61,26 @@ public class CustomSqlSessionTemplate extends SqlSessionTemplate {
         this.defaultTargetSqlSessionFactory = sqlSessionFactory;
     }
     
-    public void setTargetSqlSessionFactories(Map<Object, SqlSessionFactory> targetSqlSessionFactories) {
+    void setTargetSqlSessionFactories(Map<Object, SqlSessionFactory> targetSqlSessionFactories) {
         this.targetSqlSessionFactories = targetSqlSessionFactories;
     }
     
-    public void setDefaultTargetSqlSessionFactory(SqlSessionFactory defaultTargetSqlSessionFactory) {
+    void setDefaultTargetSqlSessionFactory(SqlSessionFactory defaultTargetSqlSessionFactory) {
         this.defaultTargetSqlSessionFactory = defaultTargetSqlSessionFactory;
     }
     
     /***
      *  获取当前使用数据源对应的会话工厂
      */
-    
     @Override
     public SqlSessionFactory getSqlSessionFactory() {
         
-        String dataSourceKey = DatabaseContextHolder.getDatabaseType().getName();
-        log.info("当前会话工厂 : {}", dataSourceKey);
+        String dataSourceKey = DataSourceContextHolder.getDataSourceKey();
+        if(null == dataSourceKey || "".equals(dataSourceKey)){
+            log.info("当前会话工厂 : {}", "默认数据源1");
+        }else {
+            log.info("当前会话工厂 : {}", dataSourceKey);
+        }
         SqlSessionFactory targetSqlSessionFactory = targetSqlSessionFactories.get(dataSourceKey);
         if (targetSqlSessionFactory != null) {
             return targetSqlSessionFactory;
@@ -100,8 +97,8 @@ public class CustomSqlSessionTemplate extends SqlSessionTemplate {
     /**
      * 这个方法的实现和父类的实现是基本一致的，唯一不同的就是在getSqlSession方法传参中获取会话工厂的方式
      */
-    
     private class SqlSessionInterceptor implements InvocationHandler {
+        @Override
         public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
             //在getSqlSession传参时候，用我们重写的getSqlSessionFactory获取当前数据源对应的会话工厂
             final SqlSession sqlSession = getSqlSession(
@@ -129,38 +126,38 @@ public class CustomSqlSessionTemplate extends SqlSessionTemplate {
             }
         }
     }
-    
+    @Override
     public ExecutorType getExecutorType() {
         return this.executorType;
     }
-    
+    @Override
     public PersistenceExceptionTranslator getPersistenceExceptionTranslator() {
         return this.exceptionTranslator;
     }
     
     @Override
     public <T> T selectOne(String statement) {
-        return this.sqlSessionProxy.<T>selectOne(statement);
+        return this.sqlSessionProxy.selectOne(statement);
     }
     
     @Override
     public <T> T selectOne(String statement, Object parameter) {
-        return this.sqlSessionProxy.<T>selectOne(statement, parameter);
+        return this.sqlSessionProxy.selectOne(statement, parameter);
     }
     
     @Override
     public <K, V> Map<K, V> selectMap(String statement, String mapKey) {
-        return this.sqlSessionProxy.<K, V>selectMap(statement, mapKey);
+        return this.sqlSessionProxy.selectMap(statement, mapKey);
     }
     
     @Override
     public <K, V> Map<K, V> selectMap(String statement, Object parameter, String mapKey) {
-        return this.sqlSessionProxy.<K, V>selectMap(statement, parameter, mapKey);
+        return this.sqlSessionProxy.selectMap(statement, parameter, mapKey);
     }
     
     @Override
     public <K, V> Map<K, V> selectMap(String statement, Object parameter, String mapKey, RowBounds rowBounds) {
-        return this.sqlSessionProxy.<K, V>selectMap(statement, parameter, mapKey, rowBounds);
+        return this.sqlSessionProxy.selectMap(statement, parameter, mapKey, rowBounds);
     }
     
     
@@ -184,17 +181,17 @@ public class CustomSqlSessionTemplate extends SqlSessionTemplate {
     
     @Override
     public <E> List<E> selectList(String statement) {
-        return this.sqlSessionProxy.<E>selectList(statement);
+        return this.sqlSessionProxy.selectList(statement);
     }
     
     @Override
     public <E> List<E> selectList(String statement, Object parameter) {
-        return this.sqlSessionProxy.<E>selectList(statement, parameter);
+        return this.sqlSessionProxy.selectList(statement, parameter);
     }
     
     @Override
     public <E> List<E> selectList(String statement, Object parameter, RowBounds rowBounds) {
-        return this.sqlSessionProxy.<E>selectList(statement, parameter, rowBounds);
+        return this.sqlSessionProxy.selectList(statement, parameter, rowBounds);
     }
     
     
@@ -312,4 +309,5 @@ public class CustomSqlSessionTemplate extends SqlSessionTemplate {
     public void destroy() throws Exception {
         
     }
+    
 }

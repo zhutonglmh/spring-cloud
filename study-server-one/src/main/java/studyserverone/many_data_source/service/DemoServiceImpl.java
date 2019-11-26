@@ -1,13 +1,11 @@
 package studyserverone.many_data_source.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import studyserverone.easy_poi.dao.ScmYearEndMapper;
-import studyserverone.easy_poi.dao2.ScmYearEndMapper2;
 import studyserverone.easy_poi.entity.ScmYearEnd;
-import studyserverone.many_data_source.DataSourceType;
-import studyserverone.many_data_source.DatabaseContextHolder;
+import studyserverone.many_data_source.DataSourceContextHolder;
 
 import javax.annotation.Resource;
 
@@ -18,20 +16,18 @@ import javax.annotation.Resource;
 @Service
 public class DemoServiceImpl implements DemoService{
     
-    @Resource
+    @Autowired
     private ScmYearEndMapper scmYearEndMapper;
-    
-    @Resource
-    private ScmYearEndMapper2 scmYearEndMapper2;
-    
+
+    @Autowired
+    private studyserverone.easy_poi.dao2.ScmYearEndMapper scmYearEndMapper2;
+
     @Override
-    @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Throwable.class)
+    @Transactional(rollbackFor = Exception.class)
     public void add(ScmYearEnd scmYearEnd) {
     
-        DatabaseContextHolder.setDatabaseType(DataSourceType.DATA_SOURCE_ONE);
-
         scmYearEndMapper.insert(scmYearEnd);
-        DatabaseContextHolder.setDatabaseType(DataSourceType.DATA_SOURCE_TWO);
         scmYearEndMapper2.insert(scmYearEnd);
+//        throw new RuntimeException();
     }
 }

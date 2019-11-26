@@ -1,6 +1,7 @@
 package studyserverone.many_data_source.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,14 +18,17 @@ import java.util.Date;
 @RestController
 public class demoController {
     
+    @Value("${billcode.size}")
+    private String size;
     @Autowired
     private DemoService demoService;
     @RequestMapping(value = "demo2",method = RequestMethod.GET)
     public String demo2() throws Exception{
     
+        System.out.println(size);
         ScmYearEnd scmYearEnd = new ScmYearEnd();
         scmYearEnd.setCreateTime(new Date());
-        scmYearEnd.setId("8");
+        scmYearEnd.setId("2");
         scmYearEnd.setCreateUser("1");
         scmYearEnd.setDeleteFlag((short)1);
         scmYearEnd.setTenantId("1");

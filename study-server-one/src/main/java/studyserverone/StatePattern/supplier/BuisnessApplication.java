@@ -13,17 +13,17 @@ public class BuisnessApplication {
 
 		Map<String, String> execParam = new HashMap<>();
 
-		// Ä£ÄâÒÑÖª×´Ì¬µÄÇé¿öÏÂµ÷ÓÃ¶¯×÷
+		// æ¨¡æ‹Ÿå·²çŸ¥çŠ¶æ€çš„æƒ…å†µä¸‹è°ƒç”¨åŠ¨ä½œ
 		SfmState auditingState = SfmStateFactory.getAuditingState();
 		auditingState.execute(SfmEventFactory.getAuditEvent(execParam));
 		auditingState.execute(SfmEventFactory.getRejectEvent(execParam));
 
-		// Ä£ÄâÒÑÖª×´Ì¬µÄÇé¿öÏÂµ÷ÓÃ¶¯×÷
+		// æ¨¡æ‹Ÿå·²çŸ¥çŠ¶æ€çš„æƒ…å†µä¸‹è°ƒç”¨åŠ¨ä½œ
 		SfmState rejectedState = SfmStateFactory.getRejectedState();
 		rejectedState.execute(SfmEventFactory.getAuditEvent(execParam));
 		rejectedState.execute(SfmEventFactory.getRejectEvent(execParam));
 
-		// Ä£Äâ´ÓÊı¾İ¿âÈ¡µÃ×´Ì¬ºóµÄÇé¿öÏÂµ÷ÓÃ¶¯×÷
+		// æ¨¡æ‹Ÿä»æ•°æ®åº“å–å¾—çŠ¶æ€åçš„æƒ…å†µä¸‹è°ƒç”¨åŠ¨ä½œ
 		SfmState stateOfDB = SfmStateFactory.getStateOf(3);
 		stateOfDB.execute(SfmEventFactory.getAuditEvent(execParam));
 	}

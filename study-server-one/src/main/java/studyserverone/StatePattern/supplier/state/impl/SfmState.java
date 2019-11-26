@@ -15,18 +15,18 @@ public class SfmState implements SfmStateInterface {
 		this.stateType = stateType;
 	}
 
-	// ÔÊĞí×¢²áµ½´Ë×´Ì¬µÄÊÂ¼şList
+	// å…è®¸æ³¨å†Œåˆ°æ­¤çŠ¶æ€çš„äº‹ä»¶List
 	private List<SfmEventTypeEnum> permitEventTypes = new ArrayList<>();
 
 	@Override
 	public final <T> void execute(SfmEventBase<T> event) {
 		if (event == null) {
-			throw new IllegalArgumentException("SfmStateBase#registerEvent(SfmEventEnum) £º²ÎÊıÎª¿Õ¡£");
+			throw new IllegalArgumentException("SfmStateBase#registerEvent(SfmEventEnum) ï¼šå‚æ•°ä¸ºç©ºã€‚");
 		}
 
 		if (!isRegistedEvent(event.getEventType())) {
-			throw new IllegalArgumentException("SfmStateBase#execute(SfmEventEnum) : ¸ÃÊÂ¼ş¡¾"
-					+ event.getEventType().getName() + "¡¿Ã»ÓĞ×¢²áµ½±¾×´Ì¬ ¡¾ " + this.getStateType().getName() + "¡¿ÖĞ¡£");
+			throw new IllegalArgumentException("SfmStateBase#execute(SfmEventEnum) : è¯¥äº‹ä»¶ã€"
+					+ event.getEventType().getName() + "ã€‘æ²¡æœ‰æ³¨å†Œåˆ°æœ¬çŠ¶æ€ ã€ " + this.getStateType().getName() + "ã€‘ä¸­ã€‚");
 		}
 
 		this.executeEvent(event);
@@ -43,11 +43,11 @@ public class SfmState implements SfmStateInterface {
 
 	public void registerEventType(SfmEventTypeEnum eventType) {
 		if (eventType == null) {
-			throw new IllegalArgumentException("SfmStateBase#registerEvent(SfmEventEnum) £º²ÎÊıÎª¿Õ¡£");
+			throw new IllegalArgumentException("SfmStateBase#registerEvent(SfmEventEnum) ï¼šå‚æ•°ä¸ºç©ºã€‚");
 		}
 
 		if (isRegistedEvent(eventType)) {
-			throw new IllegalArgumentException("SfmStateBase#registerEvent(SfmEventEnum) £º¸ÃÊÂ¼şÒÑ¾­¼ÓÈë¹ıÁË¡£");
+			throw new IllegalArgumentException("SfmStateBase#registerEvent(SfmEventEnum) ï¼šè¯¥äº‹ä»¶å·²ç»åŠ å…¥è¿‡äº†ã€‚");
 		}
 
 		this.permitEventTypes.add(eventType);
@@ -55,7 +55,7 @@ public class SfmState implements SfmStateInterface {
 
 	public void registerEventTypes(SfmEventTypeEnum... eventTypes) {
 		if (eventTypes == null || eventTypes.length == 0) {
-			throw new IllegalArgumentException("SfmStateBase#registerEvents(SfmEventEnum) £º²ÎÊıÎª¿Õ¡£");
+			throw new IllegalArgumentException("SfmStateBase#registerEvents(SfmEventEnum) ï¼šå‚æ•°ä¸ºç©ºã€‚");
 		}
 
 		for (SfmEventTypeEnum event : eventTypes) {
@@ -65,7 +65,7 @@ public class SfmState implements SfmStateInterface {
 
 	public void removeEventType(SfmEventTypeEnum eventTypes) {
 		if (eventTypes == null) {
-			throw new IllegalArgumentException("SfmStateBase#removeEvent(SfmEventEnum) £º²ÎÊıÎª¿Õ¡£");
+			throw new IllegalArgumentException("SfmStateBase#removeEvent(SfmEventEnum) ï¼šå‚æ•°ä¸ºç©ºã€‚");
 		}
 
 		this.permitEventTypes.remove(eventTypes);

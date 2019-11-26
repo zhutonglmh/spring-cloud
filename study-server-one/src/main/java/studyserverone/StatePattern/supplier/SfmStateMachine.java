@@ -6,12 +6,12 @@ import studyserverone.StatePattern.supplier.state.impl.SfmStateFactory;
 
 public class SfmStateMachine {
 	public static final void init() {
-		// 绑定审核中状态下的允许操作的事件
+		// 缁戝畾瀹℃牳涓姸鎬佷笅鐨勫厑璁告搷浣滅殑浜嬩欢
 		SfmState auditingState = SfmStateFactory.getAuditingState();
 		auditingState.registerEventType(SfmEventTypeEnum.AUDIT);
 		auditingState.registerEventType(SfmEventTypeEnum.REJECT);
 
-		// TODO 绑定其他
+		// TODO 缁戝畾鍏朵粬
 		SfmState rejectdState = SfmStateFactory.getRejectedState();
 		rejectdState.registerEventType(SfmEventTypeEnum.AUDIT);
 		rejectdState.registerEventType(SfmEventTypeEnum.REJECT);

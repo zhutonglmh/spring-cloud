@@ -2,21 +2,21 @@ package studyserverone.StatePattern.supplier.constant;
 
 public enum SfmEventTypeEnum {
 	//
-	TEMP_STORAGE(1, "Ôİ´æ"),
+	TEMP_STORAGE(1, "æš‚å­˜"),
 	//
-	SUBMIT(2, "Ìá½»"),
+	SUBMIT(2, "æäº¤"),
 	//
-	AUDIT(3, "ÉóºË"),
+	AUDIT(3, "å®¡æ ¸"),
 	//
-	WITHDRAW(4, "³·»Ø"),
+	WITHDRAW(4, "æ’¤å›"),
 	//
-	REJECT(5, "²µ»Ø"),
+	REJECT(5, "é©³å›"),
 	//
-	UN_AUDIT(6, "·´ÉóºË"),
+	UN_AUDIT(6, "åå®¡æ ¸"),
 	//
-	CANCEL(7, "×÷·Ï"),
+	CANCEL(7, "ä½œåºŸ"),
 	//
-	DELETE(8, "É¾³ı");
+	DELETE(8, "åˆ é™¤");
 
 	private int code;
 	private String name;

@@ -2,17 +2,17 @@ package studyserverone.StatePattern.supplier.constant;
 
 public enum SfmBillStateTypeEnum {
 	//
-	TEMP_STORAGE(1, "‘›¥Ê"),
+	TEMP_STORAGE(1, "ÊöÇÂ≠ò"),
 	//
-	IS_AUDITING(2, "…Û∫À÷–"),
+	IS_AUDITING(2, "ÂÆ°Ê†∏‰∏≠"),
 	//
-	AUDITED(3, "“—…Û∫À"),
+	AUDITED(3, "Â∑≤ÂÆ°Ê†∏"),
 	//
-	REJECTED(5, "“—≤µªÿ"),
+	REJECTED(5, "Â∑≤È©≥Âõû"),
 	//
-	UN_ANDITED(6, "“—∑¥…Û"),
+	UN_ANDITED(6, "Â∑≤ÂèçÂÆ°"),
 	//
-	CACALED(7, "“—◊˜∑œ");
+	CACALED(7, "Â∑≤‰ΩúÂ∫ü");
 
 	private int code;
 	private String name;

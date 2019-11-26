@@ -7,7 +7,7 @@ import studyserverone.StatePattern.supplier.state.impl.SfmState;
 public abstract class SfmEventBase<T> implements SfmEventInterface {
 	protected T t;
 	protected final SfmEventTypeEnum eventType;
-	// ÔÚÊ²Ã´×´Ì¬ÏÂÖ´ĞĞ´Ë¶¯×÷ÊÂ¼ş
+	// åœ¨ä»€ä¹ˆçŠ¶æ€ä¸‹æ‰§è¡Œæ­¤åŠ¨ä½œäº‹ä»¶
 	protected SfmState premiseState;
 	
 	protected SfmEventBase(SfmEventTypeEnum eventType, T t) {
@@ -31,11 +31,11 @@ public abstract class SfmEventBase<T> implements SfmEventInterface {
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder(512);
-		sb.append("ÔÚ×´Ì¬£º");
+		sb.append("åœ¨çŠ¶æ€ï¼š");
 		sb.append(this.premiseState.getStateType().getName());
-		sb.append(" ÏÂ£¬Ö´ĞĞ£º");
+		sb.append(" ä¸‹ï¼Œæ‰§è¡Œï¼š");
 		sb.append(this.eventType.getName());
-		sb.append(" ²Ù×÷¡£");
+		sb.append(" æ“ä½œã€‚");
 		
 		return sb.toString();
 	}

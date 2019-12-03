@@ -5,15 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4495051a-54b7-4f1a-965b-015166b83094" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z002_netty/readme01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/cglib/CglibProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/cglib/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/cglib/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/jdkproxy/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/jdkproxy/JDKDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/jdkproxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/jdkproxy/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/jdkproxy/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/proxy/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/proxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/proxy/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/proxy/UserDaoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z004_rocketmq/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single1/Single.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single2/Single.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single3/Single.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single4/Single.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single5/Single.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single6/Single.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single7/Single.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single8/Single.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z006_tcp_udp/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z006_tcp_udp/readme02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z006_tcp_udp/tcp/socket/demo1/ScoketProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z006_tcp_udp/tcp/socket/demo1/SocketConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z007_thread/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/tcp/socket/demo1/ScoketProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/tcp/socket/demo1/SocketConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/Thread/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/fsm/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/fsm/SfmBillStateTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/fsm/SfmEventTypeEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/BuisnessApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/BuisnessApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/SfmStateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/SfmStateMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/constant/SfmBillStateTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/constant/SfmBillStateTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/constant/SfmEventTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/constant/SfmEventTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/event/SfmEventBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/event/SfmEventBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/state/impl/SfmState.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/state/impl/SfmState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StudyServerOneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StudyServerOneApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server-one/src/main/java/com/zt/demo/eventBus/OneListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-server-one/src/main/java/com/zt/demo/eventBus/OneListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-server-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/interview/demo1/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/interview/demo1/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/interview/demo2/InterviewMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/io/demo1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/io/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/HanQiangMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/HanQiangMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/single/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/single/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/zuul-server/target/" />
     <ignored path="$PROJECT_DIR$/product-server-one/target/" />
@@ -56,42 +94,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/event/SfmEventBase.java">
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/websocket/socket/MyWebSocket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-125">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/state/impl/SfmState.java">
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/tcp/socket/demo1/ScoketProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#1294#1295#0" expanded="true" />
-                <element signature="e#1344#1345#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/BuisnessApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="288">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,52 +115,66 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/constant/SfmEventTypeEnum.java">
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/tcp/socket/demo1/SocketConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="275">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single4/Single.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StudyServerOneApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z006_tcp_udp/tcp/socket/demo1/SocketConsumer.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z006_tcp_udp/tcp/socket/demo1/ScoketProducer.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z006_tcp_udp/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/sqldialects.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/qaplug_profiles.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z006_tcp_udp/readme02.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/study01/shiro/conf/ShiroConfig.java">
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/Thread/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="57" column="11" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+            <state relative-caret-position="415">
+              <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z007_thread/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -157,17 +186,14 @@
       <list>
         <option value="FxmlFile" />
         <option value="spring-beans.schema" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add</find>
-      <find>public void add(int index, E e) {</find>
-      <find>write</find>
       <find>write(</find>
       <find>GREY_25_PERCENT</find>
       <find>TemplateExportParams</find>
@@ -195,6 +221,9 @@
       <find>premiseState</find>
       <find>GBK</find>
       <find>拦截器工厂类注入成功</find>
+      <find>Thread(</find>
+      <find>State</find>
+      <find>block</find>
     </findStrings>
     <replaceStrings>
       <replace>studyserverone.single.</replace>
@@ -210,22 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/many_data_source/XATransactionManagerConfig.java" />
-        <option value="$PROJECT_DIR$/product-server-one/src/main/java/com/zt/demo/aopdemo/conf/LogAspect.java" />
-        <option value="$PROJECT_DIR$/product-server-one/src/main/java/com/zt/demo/aopdemo/controller/AopDemoController.java" />
-        <option value="$PROJECT_DIR$/product-server-one/src/main/java/com/zt/demo/aopdemo/annotation/MyAnnotation.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/many_data_source/aop/DynamicDBAnnotation.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/many_data_source/DataSourceTypeEnum.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/resources/mybatis/ScmYearEndMapper2.xml" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/many_data_source/DataSourceFactory.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/easy_poi/dao2/ScmYearEndMapper.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/easy_poi/dao/ScmYearEndMapper.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/many_data_source/service/DemoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/many_data_source/DataSourceContextHolder.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/many_data_source/DynamicDataSourceAspect.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/many_data_source/CustomSqlSessionTemplate.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/many_data_source/apolloConfig.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/many_data_source/controller/demoController.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/resources/META-INF/app.properties" />
         <option value="$PROJECT_DIR$/../scm-fin/scm-fin-core/src/main/java/fin/config/datasource/DruidStatFilter.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/single/Main.java" />
@@ -242,16 +255,12 @@
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/demo1/Demo2.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/demo1/Demo1.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main2.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main3.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/easy_poi/controller/easyDemoController.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/io/demo1/Main.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/HanQiangMain.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main33.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/demo2/InterviewMain.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/constant/SfmBillStateTypeEnum.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/event/SfmEventBase.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/event/impl/SfmAuditEvent.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/event/impl/SfmEventFactory.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/event/impl/SfmRejectEvent.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/state/impl/SfmState.java" />
@@ -261,6 +270,26 @@
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/SfmStateMachine.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StudyServerOneApplication.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/HanQiangMain.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/fsm/A.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/fsm/SfmBillStateTypeEnum.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/fsm/SfmEventTypeEnum.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/event/impl/SfmAuditEvent.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/tcp/socket/demo1/ScoketProducer.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/tcp/socket/demo1/SocketConsumer.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/tcp/socket/demo2/Main.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/Thread/Main.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/01_面向过程和面向对象/readme.md" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main3.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/proxy/proxy/Main.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003proxy/cglib/UserDao.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/cglib/UserDao.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/single/single7/Single.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single7/Single.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/Thread/Demo.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/z007_thread/Demo.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/Thread/Demo.java" />
       </list>
     </option>
   </component>
@@ -313,11 +342,10 @@
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,7 +356,37 @@
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server-one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="product-server-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -363,7 +421,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="studyserverone" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -372,47 +430,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="studyserverone" type="462c0819:PsiDirectoryNode" />
-              <item name="supplier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="study-server-one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="studyserverone" type="462c0819:PsiDirectoryNode" />
-              <item name="supplier" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="study-server-one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="studyserverone" type="462c0819:PsiDirectoryNode" />
-              <item name="supplier" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="study-server-one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="study-server-one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="z007_thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -421,42 +440,20 @@
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:4.6.7" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:4.6.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-4.6.7.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:4.6.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-4.6.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hutool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:4.6.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-4.6.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hutool" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:4.6.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-4.6.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="hutool" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -471,7 +468,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556273356210" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/study-server-one/src/main/java/interview" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -483,28 +480,28 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\java\interview\01_面向过程和面向对象" />
       <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources\templates" />
       <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources\mybatis2" />
       <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources" />
       <recent name="D:\idea workplace\spring-cloud\study-server-one\src\test" />
-      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources\mybatis" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="studyserverone" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="interview.Thread" />
+      <recent name="studyserverone.fsm" />
       <recent name="studyserverone.easy_poi.dao2" />
       <recent name="studyserverone.study01.shiro.server" />
       <recent name="studyserverone.easy_poi.dao" />
-      <recent name="studyserverone.easy_poi.entity" />
-      <recent name="studyserverone.proxy.jdkproxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\java\interview" />
+      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\java\interview\z002_netty" />
       <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\java\studyserverone\StatePattern" />
       <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources\templates" />
       <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources\mybatis" />
-      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources" />
-      <recent name="D:\idea workplace\spring-cloud\study-server-one\target\test-classes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -519,26 +516,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StudyServerOneApplication">
-    <configuration name="BuisnessApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="studyserverone.StatePattern.supplier.BuisnessApplication" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="studyserverone.Thread.Demo" />
       <module name="study-server-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="studyserverone.StatePattern.supplier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterviewMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.demo2.InterviewMain" />
-      <module name="study-server-one" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.demo2.*" />
+          <option name="PATTERN" value="studyserverone.Thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -547,11 +531,11 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="studyserverone.io.demo1.Main" />
+      <option name="MAIN_CLASS_NAME" value="studyserverone.Thread.Main" />
       <module name="study-server-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="studyserverone.io.demo1.*" />
+          <option name="PATTERN" value="studyserverone.Thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -559,12 +543,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="studyserverone.okhttp3.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="studyserverone.TCP_UDP.tcp.socket.demo2.Main" />
       <module name="study-server-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="studyserverone.okhttp3.*" />
+          <option name="PATTERN" value="studyserverone.TCP_UDP.tcp.socket.demo2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -572,12 +556,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="studyserverone.okhttp3.Main3" />
+    <configuration name="ScoketProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="studyserverone.TCP_UDP.tcp.socket.demo1.ScoketProducer" />
       <module name="study-server-one" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="studyserverone.okhttp3.*" />
+          <option name="PATTERN" value="studyserverone.TCP_UDP.tcp.socket.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="studyserverone.TCP_UDP.tcp.socket.demo1.SocketConsumer" />
+      <module name="study-server-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="studyserverone.TCP_UDP.tcp.socket.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -642,11 +639,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Main (4)" />
-      <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.InterviewMain" />
-      <item itemvalue="Application.BuisnessApplication" />
+      <item itemvalue="Application.ScoketProducer" />
+      <item itemvalue="Application.SocketConsumer" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Spring Boot.ZuulServerApplication" />
       <item itemvalue="Spring Boot.ProductServerTwoApplication" />
       <item itemvalue="Spring Boot.CustomServerOneApplication" />
@@ -655,14 +650,16 @@
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.StudyServerOneApplication" />
       <item itemvalue="Spring Boot.ProductServerApplication" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BuisnessApplication" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.InterviewMain" />
-        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ScoketProducer" />
+        <item itemvalue="Application.SocketConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -835,7 +832,12 @@
       <workItem from="1573783501854" duration="2630000" />
       <workItem from="1574248489456" duration="549000" />
       <workItem from="1574400274520" duration="4815000" />
-      <workItem from="1574761094563" duration="3587000" />
+      <workItem from="1574761094563" duration="4298000" />
+      <workItem from="1574941180197" duration="888000" />
+      <workItem from="1575006580801" duration="3856000" />
+      <workItem from="1575051205762" duration="1337000" />
+      <workItem from="1575267281545" duration="9826000" />
+      <workItem from="1575338965363" duration="21960000" />
     </task>
     <task id="LOCAL-00001" summary="整合mybatis 和 durid">
       <created>1541667956687</created>
@@ -900,7 +902,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574765206381</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="提交一版">
+      <created>1574766133998</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574766133998</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -936,7 +945,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="617679000" />
+    <option name="totallyTimeSpent" value="656257000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -949,9 +958,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.24439701" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.25506938" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.24093817" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -964,18 +972,18 @@
       <window_info id="Project Explorer" order="10" weight="0.32924226" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33877996" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33660132" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4994664" weight="0.38235295" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4903949" weight="0.21132898" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7470651" weight="0.30392158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.19389978" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.28382838" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053364" side_tool="true" weight="0.74371856" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5096051" side_tool="true" weight="0.21132898" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32352942" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.28976035" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.4869281" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4994664" weight="0.1819172" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.28976035" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Freeline" order="14" weight="0.32790446" />
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.5385451" />
       <window_info anchor="bottom" id="Console" order="16" />
@@ -1399,37 +1407,37 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
-          <line>222</line>
+          <line>223</line>
           <properties />
           <option name="timeStamp" value="258" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
-          <line>223</line>
+          <line>224</line>
           <properties />
           <option name="timeStamp" value="259" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
-          <line>207</line>
+          <line>208</line>
           <properties />
           <option name="timeStamp" value="260" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
-          <line>208</line>
+          <line>209</line>
           <properties />
           <option name="timeStamp" value="261" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
-          <line>220</line>
+          <line>221</line>
           <properties />
           <option name="timeStamp" value="262" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
-          <line>221</line>
+          <line>222</line>
           <properties />
           <option name="timeStamp" value="263" />
         </line-breakpoint>
@@ -1459,31 +1467,31 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
-          <line>439</line>
+          <line>440</line>
           <properties />
           <option name="timeStamp" value="272" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
-          <line>438</line>
+          <line>439</line>
           <properties />
           <option name="timeStamp" value="273" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
-          <line>437</line>
+          <line>438</line>
           <properties />
           <option name="timeStamp" value="274" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
-          <line>440</line>
+          <line>441</line>
           <properties />
           <option name="timeStamp" value="275" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
-          <line>442</line>
+          <line>443</line>
           <properties />
           <option name="timeStamp" value="276" />
         </line-breakpoint>
@@ -1501,141 +1509,111 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
-          <line>224</line>
+          <line>225</line>
           <properties />
           <option name="timeStamp" value="279" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
-          <line>225</line>
+          <line>226</line>
           <properties />
           <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
+          <line>235</line>
+          <properties />
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
+          <line>227</line>
+          <properties />
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
+          <line>228</line>
+          <properties />
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
+          <line>229</line>
+          <properties />
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java</url>
+          <line>236</line>
+          <properties />
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/tcp/socket/demo1/ScoketProducer.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/tcp/socket/demo1/ScoketProducer.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/tcp/socket/demo1/SocketConsumer.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="292" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/readme.md">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/base/data_structure03/QueueMy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/base/02_java语言有哪些特点/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="825">
-            <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <first_editor relative-caret-position="50">
+            <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2150">
-          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/netty/readme01.md">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/02_java语言有哪些特点/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1848" />
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/ReceiveController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/demo1/Demo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/demo1/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="21" selection-start-line="14" selection-start-column="7" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63275">
-          <caret line="2593" column="22" selection-start-line="2593" selection-start-column="22" selection-end-line="2593" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/afterturn/easypoi-base/4.0.0/easypoi-base-4.0.0.jar!/cn/afterturn/easypoi/cache/manager/FileLoaderImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/base/八种排序算法/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/io/demo1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.6.7/hutool-all-4.6.7-sources.jar!/cn/hutool/core/date/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14500">
-          <caret line="686" column="27" selection-start-line="686" selection-start-column="27" selection-end-line="686" selection-end-column="27" />
-          <folding>
-            <element signature="e#3510#3511#0" expanded="true" />
-            <element signature="e#3554#3555#0" expanded="true" />
-            <element signature="e#27162#27163#0" expanded="true" />
-            <element signature="e#27206#27207#0" expanded="true" />
-            <element signature="e#28644#28645#0" expanded="true" />
-            <element signature="e#28701#28702#0" expanded="true" />
-            <element signature="e#28862#28863#0" expanded="true" />
-            <element signature="e#28920#28921#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/afterturn/easypoi-base/4.0.0/easypoi-base-4.0.0.jar!/cn/afterturn/easypoi/excel/entity/TemplateExportParams.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/HanQiangMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/easy_poi/controller/easyDemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="105" column="58" selection-start-line="105" selection-start-column="58" selection-end-line="105" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Okhttp3Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="22" column="23" selection-start-line="19" selection-start-column="5" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1647,299 +1625,274 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/demo2/InterviewMain.java">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/freemarker/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="50">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
-          <folding>
-            <element signature="e#3740#3741#0" expanded="true" />
-            <element signature="e#3777#3778#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/netty/readme01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="407">
+            <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14150">
-          <caret line="610" column="13" selection-start-line="610" selection-start-column="13" selection-end-line="610" selection-end-column="13" />
-          <folding>
-            <element signature="e#24329#24330#0" expanded="true" />
-            <element signature="e#24394#24395#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/02_java语言有哪些特点/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="9" column="9" lean-forward="true" selection-end-line="9" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5025">
-          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="522">
+            <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main2.java">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z002_netty/readme01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/internet/Socket/SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/internet/Socket/SocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main33.java">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/proxy/cglib/CglibProxyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/proxy/cglib/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/util/Collection.java">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/proxy/UserDaoProxy.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/jdkproxy/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/jdkproxy/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/jdkproxy/JDKDynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/proxy/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/jdkproxy/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/proxy/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/cglib/CglibProxyFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6575">
-          <caret line="288" column="12" selection-start-line="288" selection-start-column="12" selection-end-line="288" selection-end-column="12" />
+        <state relative-caret-position="200">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.10/druid-1.1.10.jar!/com/alibaba/druid/sql/visitor/functions/Char.class">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/cglib/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/cglib/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/rocket_mq/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="200">
+            <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z004_rocketmq/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single3/Single.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single6/Single.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single1/Single.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single5/Single.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single2/Single.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single7/Single.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single8/Single.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51150">
-          <caret line="2120" column="24" selection-start-line="2120" selection-start-column="24" selection-end-line="2120" selection-end-column="24" />
-          <folding>
-            <element signature="e#82616#82617#0" expanded="true" />
-            <element signature="e#82667#82668#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/util/regex/Pattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26225">
-          <caret line="1092" column="28" selection-start-line="1092" selection-start-column="28" selection-end-line="1092" selection-end-column="28" />
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/readme02.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/util/regex/Matcher.java">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/tcp/socket/demo1/ScoketProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7025">
-          <caret line="306" column="31" selection-start-line="305" selection-start-column="12" selection-end-line="306" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.6.7/hutool-all-4.6.7-sources.jar!/cn/hutool/core/date/format/DatePrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="86" column="45" lean-forward="true" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
+        <state relative-caret-position="288">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/constant/SfmBillStateTypeEnum.java">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/tcp/socket/demo1/SocketConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/event/impl/SfmEventFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        <state relative-caret-position="275">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/event/impl/SfmRejectEvent.java">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/TCP_UDP/tcp/socket/demo2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z005_single/single4/Single.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z006_tcp_udp/tcp/socket/demo1/SocketConsumer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z006_tcp_udp/tcp/socket/demo1/ScoketProducer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z006_tcp_udp/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z006_tcp_udp/readme02.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/Thread/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/event/SfmEventInterface.java">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/websocket/socket/MyWebSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="-125">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/util/PrintLogUtil.java">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z007_thread/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="301">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/state/SfmStateInterface.java">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/Thread/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/state/impl/SfmStateFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="63" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="63" />
-          <folding>
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/event/impl/SfmAuditEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/SfmStateMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/resources/application-dataSource.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/BuisnessApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/event/SfmEventBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/state/impl/SfmState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StatePattern/supplier/constant/SfmEventTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/StudyServerOneApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/sqldialects.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/4.6.7/hutool-all-4.6.7-sources.jar!/cn/hutool/core/util/CharsetUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="108" column="30" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/qaplug_profiles.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/study01/shiro/conf/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="57" column="11" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+        <state relative-caret-position="415">
+          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
         </state>
       </provider>
     </entry>

@@ -126,7 +126,7 @@ public class Main {
     
     static JSONObject sqlAddr = JSONObject.parseObject("{\"sql\":\"explain select * from scm_stock_goods_detail where tenant_id = '5b308129360170000172afa6'  and store_id = \\\"6e6f11213dcb415b98713776bdc8bfba\\\" and (buss_date between \\\"2019-08-25\\\" and \\\"2019-09-25\\\")\",\"basename\":\"online_cloud_scm\",\"source\":\"online_scm_select\"}");
     static JSONObject sqlAddr2zhongtai1 = JSONObject.parseObject("{\"sql\":\"select count(*) as total from \\r\\n(select DISTINCT t.tenant_id from bas_rel_application_shopid t where t.application_id = 'dd54e0c1ce2c43dcad7cc3e3b8a2d3a6' and t.delete_flag = '1' and t.status = 1) a\\r\\nleft join acl_tenant te on te.id = a.tenant_id\\r\\nwhere \\r\\nte.status = 1 and te.delete_flag = 1\\r\\nand te.id not in (\\r\\n'5c89e7c63601700001c461f3','520829d8b47745d08b304c3dbe3fca9d',\\r\\n'5abf001796d190000d07a59a',\\r\\n'5c89e7c63601700001c461f3',\\r\\n'5d0735d4ecc50f0001c1f454',\\r\\n'5d07bc9decc50f0001c1f45b',\\r\\n'5d07c1827c59920001a7dc61',\\r\\n'5d08f50fecc50f0001c1f4e7',\\r\\n'5d2fea6aecc50f0001c202af',\\r\\n'5d3fe3d796d190000153b109',\\r\\n'5d4c396decc50f0001c20893',\\r\\n'7368e535f270443eb7f6b56005a81f30',\\r\\n'b81c52b170bc4c1eb9fb559131cdef36',\\r\\n'c5275c0472c44780bae3ddef9297459f',\\r\\n'd7a33b1f879c4cc5830d24f8e054ef97');\",\"basename\":\"choiceaccount\",\"source\":\"online_choiceaccount_select\"}");
-    static String jwtToken = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzQ0MTQ2NTcsIm5hbWUiOiLmnLHlkIwiLCJyb2xlIjoiZ3Vlc3QifQ._VrRzg67lHNsiXbHdI2ofVUWnZYBno1OnMs25s4v2CY";
+    static String jwtToken = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzUwNDAxODMsIm5hbWUiOiLmnLHlkIwiLCJyb2xlIjoiZ3Vlc3QifQ.zDv-Ug9XK-6GAbHgd9l0vppEo6JrJCWlutKeHH_L1b0";
     static String url = "http://47.98.58.111:18080/api/v2/query";
     
     
@@ -205,6 +205,7 @@ public class Main {
     
     private static void total(String sql,Map<String,Object> resultMap) throws Exception{
         sqlAddr.put("sql", sql);
+        System.out.println(sql);
         RequestBody body = RequestBody.create(MediaType.parse("application/json"), JSONObject.toJSONString(sqlAddr));
         Request requestOk = new Request.Builder()
                                     .url(url)

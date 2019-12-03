@@ -27,7 +27,7 @@
 //        DeUser deUser = event.getDeUser();
 //        //todo 逻辑
 //        try {
-//            Thread.sleep(1000);
+//            z007_thread.sleep(1000);
 //        } catch (InterruptedException e) {
 //            e.printStackTrace();
 //        }

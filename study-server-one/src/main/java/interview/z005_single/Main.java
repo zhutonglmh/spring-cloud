@@ -1,10 +1,7 @@
-package studyserverone.single;
+package interview.z005_single;
 
-
-import studyserverone.single.single1.Single;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 /**
  * @author zhutong

@@ -27,12 +27,12 @@ public class Demo {
          * */
     
     
-        //https://github.com/Snailclimb/JavaGuide/blob/master/docs/java/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md
+        //https://github.com/Snailclimb/JavaGuid                                                                                                                                                                                                                                                                                                    e/blob/master/docs/java/Java%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86.md
         //运行 -----就绪   ready() 放弃cup片区，然后根据优先级重新竞争
         Thread.yield();
         //运行 ------等待
         Thread.currentThread().wait();   //释放锁,  不带超时时间只能被环境 notify notiyfall，唤醒了不一定立即执行，需要先拿锁，必须有对象级的锁，synchronized 方法或者 synchronized 代码块     
-        Thread.currentThread().join();   //释放锁   不带超时时间只能等join线程执行完才能执行，，如果有锁的情况下唤醒了不一定立即执行，需要先拿锁
+        Thread.currentThread().join();   //释放锁   不带超时时间只能等join线程执行完才能执行，，如果有锁的情况下唤醒了不一定立即执行，需要先拿锁  实际上是调用调用join方法的对象的wait方法
         LockSupport.park();              //不释放锁  只能等待LockSupport.unpark()才能执行，唤醒了一定去执行
         //等待 ------ 运行
     

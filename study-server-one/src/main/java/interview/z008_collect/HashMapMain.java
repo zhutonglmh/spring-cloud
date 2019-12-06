@@ -33,6 +33,8 @@ public class HashMapMain {
         demo.put(b,null);//   14
         demo.put(c,null);//   14
         demo.put(d,null);//   14
+    
+        // e.hash = null == e.key ? 0 : hash(e.key);
         
         //00  02
     

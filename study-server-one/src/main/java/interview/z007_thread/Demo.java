@@ -9,7 +9,7 @@ import java.util.concurrent.locks.LockSupport;
 public class Demo {
     
     public static void main(String[] args) throws Exception {
-    
+
         /**
          * 线程的六种状态
          *

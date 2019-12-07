@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4495051a-54b7-4f1a-965b-015166b83094" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z009_j2ee/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z007_thread/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z007_thread/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/HashMapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/HashMapMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/z03_hashMap.md" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/z03_hashMap.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/Algorithm.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/zuul-server/target/" />
     <ignored path="$PROJECT_DIR$/product-server-one/target/" />
@@ -54,57 +51,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="483">
-                <caret line="50" column="118" selection-start-line="50" selection-start-column="118" selection-end-line="50" selection-end-column="118" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/Algorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="method#min#0;class#Algorithm#0" />
+                <element signature="method#myStack#0;class#Algorithm#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/Algorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#min#0;class#Algorithm#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/lang/Integer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="51" column="26" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/lang/Comparable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/util/HashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="628" column="40" lean-forward="true" selection-start-line="628" selection-start-column="40" selection-end-line="628" selection-end-column="40" />
-              <folding>
-                <element signature="e#19327#19328#0" expanded="true" />
-                <element signature="e#19410#19411#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z009_j2ee/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="766">
+                <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -112,10 +78,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/HashMapMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+            <state relative-caret-position="341">
+              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/MyStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="85" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="85" />
+              <folding>
+                <element signature="e#1499#1500#0" expanded="true" />
+                <element signature="e#1531#1532#0" expanded="true" />
+                <element signature="e#1560#1561#0" expanded="true" />
+                <element signature="e#1587#1588#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z007_thread/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-27">
+            <state relative-caret-position="300">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
@@ -133,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="29175">
               <caret line="1240" column="35" selection-start-line="1240" selection-start-column="35" selection-end-line="1240" selection-end-column="35" />
             </state>
           </provider>
@@ -143,8 +124,32 @@
         <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/z03_hashMap.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1727">
-                <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+              <first_editor relative-caret-position="1825">
+                <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/z02_arrayList_growp.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="816">
+                <caret line="172" column="12" lean-forward="true" selection-start-line="172" selection-start-column="12" selection-end-line="172" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/z01_readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="391">
+                <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -154,7 +159,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="93175">
               <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
               <folding>
                 <element signature="e#177013#177014#0" expanded="true" />
@@ -226,8 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/SendController.java" />
-        <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/proxy/cglib/Main.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/proxy/cglib/UserDao.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/Okhttp3Utils.java" />
         <option value="$PROJECT_DIR$/study-server-one/pom.xml" />
@@ -276,7 +279,9 @@
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/z007_thread/Demo.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/Main.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/readme.md" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/MyStack.java" />
         <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/Algorithm.java" />
+        <option value="$PROJECT_DIR$/study-server-one/src/main/java/interview/z009_j2ee/readme.md" />
       </list>
     </option>
   </component>
@@ -333,8 +338,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -385,12 +388,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="z001_base" type="462c0819:PsiDirectoryNode" />
+              <item name="z009_j2ee" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -416,15 +421,15 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\java\interview\01_面向过程和面向对象" />
-      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources\templates" />
-      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources\mybatis2" />
-      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources" />
-      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\test" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="studyserverone" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\java\interview" />
+      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\java\interview\z002_netty" />
+      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\java\studyserverone\StatePattern" />
+      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources\templates" />
+      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources\mybatis" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="interview.Thread" />
@@ -433,12 +438,12 @@
       <recent name="studyserverone.study01.shiro.server" />
       <recent name="studyserverone.easy_poi.dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\java\interview" />
-      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\java\interview\z002_netty" />
-      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\java\studyserverone\StatePattern" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\java\interview\01_面向过程和面向对象" />
       <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources\templates" />
-      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources\mybatis" />
+      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources\mybatis2" />
+      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\main\resources" />
+      <recent name="D:\idea workplace\spring-cloud\study-server-one\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -577,6 +582,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.HashMapMain" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Demo (1)" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Algorithm" />
       <item itemvalue="Spring Boot.ZuulServerApplication" />
       <item itemvalue="Spring Boot.ProductServerTwoApplication" />
       <item itemvalue="Spring Boot.CustomServerOneApplication" />
@@ -585,10 +594,6 @@
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.StudyServerOneApplication" />
       <item itemvalue="Spring Boot.ProductServerApplication" />
-      <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.Demo (1)" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Algorithm" />
     </list>
     <recent_temporary>
       <list>
@@ -777,7 +782,8 @@
       <workItem from="1575338965363" duration="22175000" />
       <workItem from="1575424404849" duration="18468000" />
       <workItem from="1575510100875" duration="21985000" />
-      <workItem from="1575596702146" duration="13521000" />
+      <workItem from="1575596702146" duration="13561000" />
+      <workItem from="1575701872720" duration="8080000" />
     </task>
     <task id="LOCAL-00001" summary="整合mybatis 和 durid">
       <created>1541667956687</created>
@@ -863,7 +869,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575546652542</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="提交一版">
+      <created>1575637961144</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575637961144</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -899,7 +912,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="710446000" />
+    <option name="totallyTimeSpent" value="718566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -911,9 +924,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.15368196" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.15528281" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.24093817" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -926,8 +940,8 @@
       <window_info id="Project Explorer" order="10" weight="0.32924226" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33877996" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4903949" weight="0.35729846" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7470651" visible="true" weight="0.23856209" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4903949" weight="0.100217864" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7470651" weight="0.33442265" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.19389978" />
@@ -1042,21 +1056,21 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/Algorithm.java</url>
-          <line>16</line>
+          <url>file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/MyStack.java</url>
+          <line>49</line>
           <properties />
-          <option name="timeStamp" value="336" />
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/MyStack.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="338" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/jdkproxy/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/jdkproxy/JDKDynamicProxy.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z003_proxy/proxy/UserDao.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1264,26 +1278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/z01_readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="391">
-            <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/z02_arrayList_growp.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="816">
-            <caret line="172" column="12" lean-forward="true" selection-start-line="172" selection-start-column="12" selection-end-line="172" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/studyserverone/okhttp3/HanQiangMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1298,16 +1292,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/Main.java" />
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1250">
+            <caret line="50" column="118" selection-start-line="50" selection-start-column="118" selection-end-line="50" selection-end-column="118" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14550">
+          <caret line="628" column="40" selection-start-line="628" selection-start-column="40" selection-end-line="628" selection-end-column="40" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z007_thread/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="29175">
           <caret line="1240" column="35" selection-start-line="1240" selection-start-column="35" selection-end-line="1240" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="93175">
           <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
           <folding>
             <element signature="e#177013#177014#0" expanded="true" />
@@ -1318,86 +1355,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/z02_arrayList_growp.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="816">
+            <caret line="172" column="12" lean-forward="true" selection-start-line="172" selection-start-column="12" selection-end-line="172" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/HashMapMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/z01_readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="391">
+            <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/z03_hashMap.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1727">
-            <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
+          <first_editor relative-caret-position="1825">
+            <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/lang/Comparable.java">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z008_collect/HashMapMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_152/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="628" column="40" lean-forward="true" selection-start-line="628" selection-start-column="40" selection-end-line="628" selection-end-column="40" />
+        <state relative-caret-position="341">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
           <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z007_thread/Demo.java">
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="483">
-            <caret line="50" column="118" selection-start-line="50" selection-start-column="118" selection-end-line="50" selection-end-column="118" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="189">
+          <caret line="9" column="85" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="85" />
+          <folding>
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z001_base/Algorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#min#0;class#Algorithm#0" />
+            <element signature="method#myStack#0;class#Algorithm#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-server-one/src/main/java/interview/z009_j2ee/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="766">
+            <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

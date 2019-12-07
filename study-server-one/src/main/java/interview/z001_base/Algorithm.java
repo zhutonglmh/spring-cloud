@@ -1,8 +1,5 @@
 package interview.z001_base;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author zhutong
  * @date 2019/12/6 20:31
@@ -12,9 +9,7 @@ public class Algorithm {
     //java 程序设计  实现最小值函数
     
     public static void main(String[] args) {
-        int minInteger = min(new Integer[]{1, 2, 3});//result:1
-        double minDouble = min(new Double[]{1.2, 2.2, -1d});//result:-1d
-        System.out.println(1);
+       
     }
     
     /**
@@ -34,5 +29,26 @@ public class Algorithm {
         return min;
     }
     
-    
+    /**
+     * 使用数组实现栈
+     * 自己实现一个栈，要求这个栈具有push()、pop()（返回栈顶元素并出栈）、peek() （返回栈顶元素不出栈）、isEmpty()、size()这些基本的方法。
+     */
+    private static void myStack(){
+        MyStack myStack = new MyStack(3);
+        myStack.push(1);
+        myStack.push(2);
+        myStack.push(3);
+        myStack.push(4);
+        myStack.push(5);
+        myStack.push(6);
+        myStack.push(7);
+        myStack.push(8);
+        System.out.println(myStack.peek());//8
+        System.out.println(myStack.size());//8
+        for (int i = 0; i < 8; i++) {
+            System.out.println(myStack.pop());
+        }
+        System.out.println(myStack.isEmpty());//true
+        myStack.pop();//报错：java.lang.IllegalArgumentException: Stack is empty.
+    }
 }

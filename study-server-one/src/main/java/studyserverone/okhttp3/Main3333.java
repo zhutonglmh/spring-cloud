@@ -2,7 +2,6 @@ package studyserverone.okhttp3;
 
 import cn.afterturn.easypoi.excel.ExcelExportUtil;
 import cn.afterturn.easypoi.excel.entity.TemplateExportParams;
-import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.date.DateUtil;
 import com.alibaba.fastjson.JSONObject;
@@ -23,7 +22,7 @@ import static cn.hutool.core.date.DateUtil.offsetWeek;
  * @author zhutong
  * @date 2019/9/24 18:59
  */
-public class Main {
+public class Main3333 {
     
     
     static String weeklySql = "select count(*)   from  scm_stock_flow  where  create_time>='startDate 00:00:00' and create_time<'endDate  00:00:00' and is_in_stock = 1\n" +
@@ -47,8 +46,6 @@ public class Main {
                                       "union all\n" +
                                       "select count(*) as cnt  from  scm_transfer   where  create_time>='startDate 00:00:00' and create_time<'endDate  00:00:00' ) t\n" +
                                       "\n" +
-                                      "union all select count(*)   from  scm_sales_order   where  create_time>='startDate 00:00:00' and create_time<'endDate  00:00:00'\n" +
-                                      "\n" +
                                       "union all select count(*)   from  scm_store    where  create_time>='startDate 00:00:00' and create_time<'endDate  00:00:00'\n";
     
     static String allSql = "select count(*)   from  scm_stock_flow  where  create_time<'endDate  00:00:00' and is_in_stock = 1\n" +
@@ -71,8 +68,6 @@ public class Main {
                                    "select count(*) as cnt  from  scm_sts_transfer   where  create_time<'endDate  00:00:00'\n" +
                                    "union all\n" +
                                    "select count(*) as cnt  from  scm_transfer   where  create_time<'endDate  00:00:00' ) t\n" +
-                                   "\n" +
-                                   "union all select count(*)   from  scm_sales_order   where create_time<'endDate  00:00:00'\n" +
                                    "\n" +
                                    "union all select count(*)   from  scm_store    where  create_time<'endDate  00:00:00'\n" +
                                    "\n" +
@@ -126,8 +121,7 @@ public class Main {
     
     static JSONObject sqlAddr = JSONObject.parseObject("{\"sql\":\"explain select * from scm_stock_goods_detail where tenant_id = '5b308129360170000172afa6'  and store_id = \\\"6e6f11213dcb415b98713776bdc8bfba\\\" and (buss_date between \\\"2019-08-25\\\" and \\\"2019-09-25\\\")\",\"basename\":\"online_cloud_scm\",\"source\":\"online_scm_select\"}");
     static JSONObject sqlAddr2zhongtai1 = JSONObject.parseObject("{\"sql\":\"select count(*) as total from \\r\\n(select DISTINCT t.tenant_id from bas_rel_application_shopid t where t.application_id = 'dd54e0c1ce2c43dcad7cc3e3b8a2d3a6' and t.delete_flag = '1' and t.status = 1) a\\r\\nleft join acl_tenant te on te.id = a.tenant_id\\r\\nwhere \\r\\nte.status = 1 and te.delete_flag = 1\\r\\nand te.id not in (\\r\\n'5c89e7c63601700001c461f3','520829d8b47745d08b304c3dbe3fca9d',\\r\\n'5abf001796d190000d07a59a',\\r\\n'5c89e7c63601700001c461f3',\\r\\n'5d0735d4ecc50f0001c1f454',\\r\\n'5d07bc9decc50f0001c1f45b',\\r\\n'5d07c1827c59920001a7dc61',\\r\\n'5d08f50fecc50f0001c1f4e7',\\r\\n'5d2fea6aecc50f0001c202af',\\r\\n'5d3fe3d796d190000153b109',\\r\\n'5d4c396decc50f0001c20893',\\r\\n'7368e535f270443eb7f6b56005a81f30',\\r\\n'b81c52b170bc4c1eb9fb559131cdef36',\\r\\n'c5275c0472c44780bae3ddef9297459f',\\r\\n'd7a33b1f879c4cc5830d24f8e054ef97');\",\"basename\":\"choiceaccount\",\"source\":\"online_choiceaccount_select\"}");
-    static String jwtToken = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1ODEwODMwNDEsIm5hbWUiOiLmnLHlkIwiLCJyb2xlIjoiZ3Vlc3QifQ.hWQw7__wevWlQF2OQO53SXxrXMQJVWVsPJ2c13HYwm8";
-    
+    static String jwtToken = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1ODM1MDMyMjUsIm5hbWUiOiLmnLHlkIwiLCJyb2xlIjoiZ3Vlc3QifQ.jBUuAf1slCqDryV8SGW_IuxOVcNmnIrbQcT2XC2l7aE";
     static String url = "http://47.98.58.111:18080/api/v2/query";
     
     
@@ -246,11 +240,11 @@ public class Main {
             resultMap.put("total7", maps.get(6).get("count(*)"));
             resultMap.put("total8", maps.get(7).get("count(*)"));
             resultMap.put("total9", maps.get(8).get("count(*)"));
-            resultMap.put("total10", maps.get(9).get("count(*)"));
-            resultMap.put("total12", maps.get(10).get("count(*)"));
-            resultMap.put("total11", maps.get(11).get("count(*)"));
-            resultMap.put("total13", maps.get(12).get("count(*)"));
-            resultMap.put("total14", maps.get(13).get("count(*)"));
+           
+            resultMap.put("total12", maps.get(9).get("count(*)"));
+            resultMap.put("total11", maps.get(10).get("count(*)"));
+            resultMap.put("total13", maps.get(11).get("count(*)"));
+            resultMap.put("total14", maps.get(12).get("count(*)"));
             System.out.println(resultMap);
         }
         
@@ -288,8 +282,7 @@ public class Main {
             resultMap.put("week7", maps.get(6).get("count(*)"));
             resultMap.put("week8", maps.get(7).get("count(*)"));
             resultMap.put("week9", maps.get(8).get("count(*)"));
-            resultMap.put("week10", maps.get(9).get("count(*)"));
-            resultMap.put("week12", maps.get(10).get("count(*)"));
+            resultMap.put("week12", maps.get(9).get("count(*)"));
             System.out.println(resultMap);
         }else {
             System.out.println("token过期！！！！！！");
@@ -324,8 +317,7 @@ public class Main {
             resultMap.put("lastWeek7", maps.get(6).get("count(*)"));
             resultMap.put("lastWeek8", maps.get(7).get("count(*)"));
             resultMap.put("lastWeek9", maps.get(8).get("count(*)"));
-            resultMap.put("lastWeek10", maps.get(9).get("count(*)"));
-            resultMap.put("lastWeek12", maps.get(10).get("count(*)"));
+            resultMap.put("lastWeek12", maps.get(9).get("count(*)"));
             System.out.println(resultMap);
         }
     }

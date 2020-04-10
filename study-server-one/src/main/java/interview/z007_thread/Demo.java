@@ -15,7 +15,7 @@ public class Demo {
          *
          * 1、new    初始状态，线程被构建，但是还没有调用start()方法
          *
-         * 2、running 运行状态，Java 线程将操作系统中的就绪和运行两种状态笼统的称作"运行中"
+         * 2、runnable 运行状态，Java 线程将操作系统中的就绪和运行两种状态笼统的称作"运行中"
          *
          * 3、blocked  阻塞状态，标识线程阻塞于锁
          *
@@ -56,7 +56,6 @@ public class Demo {
         Thread.currentThread().notify();
         Thread.currentThread().notifyAll();
         LockSupport.unpark(Thread.currentThread());
-    
         //运行  ------ 阻塞
         //等待进入synchronized 方法
         //等待进入 synchronized 块

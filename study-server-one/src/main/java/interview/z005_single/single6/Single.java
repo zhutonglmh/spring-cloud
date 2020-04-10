@@ -22,4 +22,5 @@ public class Single {
         }
         return single;
     }
+    
 }

@@ -28,6 +28,5 @@ public class DemoServiceImpl implements DemoService{
     
         scmYearEndMapper.insert(scmYearEnd);
         scmYearEndMapper2.insert(scmYearEnd);
-//        throw new RuntimeException();
     }
 }

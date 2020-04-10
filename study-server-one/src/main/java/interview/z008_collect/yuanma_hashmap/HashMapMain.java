@@ -1,4 +1,4 @@
-package interview.z008_collect;
+package interview.z008_collect.yuanma_hashmap;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,7 +17,7 @@ public class HashMapMain {
                                 // 无符号右移16位    0000 0000 0000 0000 1110 1101 1101 0111    异或  参与运算的两数各对应的二进位相异或,当两对应的二进位相异时,结果为1
                                 //按位异或           1110 1101 1101 0111 1000 1001 0010 1100        
                                 // 初始容量-1        0000 0000 0000 0000 0000 0000 0000 1111
-                                // 取模运算(&)       0000 0000 0000 0000 0000 0000 0000 1100   12              这也就是为什么是要2的幂次方  因为只有这时候取模才可以用 hash ^ (length - 1)                    
+                                // 取模运算(&)       0000 0000 0000 0000 0000 0000 0000 1100   12              这也就是为什么是要2的幂次方  因为只有这时候取模才可以用 hash & (length - 1)                    
         String b = "limeihua"; //hash  1160645952    0100 0101 0010 1110 0000 1101 0100 0000
                                 // 无符号右移16位    0000 0000 0000 0000 0100 0101 0010 1110 
                                 //按位异或           0100 0101 0010 1110 0100 1000 0110 1110
@@ -31,7 +31,6 @@ public class HashMapMain {
         //扰动函数  >>> 无符号右移16 位   右移  正数补0 负数补1  左移  全补0  异或
         demo.put(a,null);//   12
         demo.put(b,null);//   14
-        demo.put(c,null);//   14
         demo.put(d,null);//   14
     
         // e.hash = null == e.key ? 0 : hash(e.key);
@@ -41,6 +40,8 @@ public class HashMapMain {
         System.out.println((a.hashCode() ^ (a.hashCode()>>> 16)) & 32); //0
         System.out.println((b.hashCode() ^ (b.hashCode()>>> 16)) & 32); //2
     
+        
+        
         System.out.println((a.hashCode() ^ (a.hashCode()>>> 16)) & 63); //0
         System.out.println((b.hashCode() ^ (b.hashCode()>>> 16)) & 63); //2
         

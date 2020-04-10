@@ -35,7 +35,6 @@ import java.util.Map;
 @RequestMapping("easy/poi")
 public class easyDemoController {
     
-    public static Workbook workbook;
     
     
     @Resource
@@ -43,42 +42,43 @@ public class easyDemoController {
     
     @RequestMapping(value = "demo",method = RequestMethod.GET)
     public String demo(HttpServletRequest request, HttpServletResponse response) throws Exception{
-//        
-//        //1、生成文件
-//        ExportParams params = new ExportParams("年结信息表","年结");
-//        params.setStyle(MyExcelStyle.class);
-//        List<ScmYearEnd> scmYearEnds = scmYearEndMapper.selectByExample(new ScmYearEndExample());
-//        BigDecimal ss = BigDecimal.ZERO;
-//        for (ScmYearEnd scmYearEnd : scmYearEnds) {
-//            Chirld chirld = new Chirld();
-//            chirld.setTenantId(scmYearEnd.getTenantId());
-//            chirld.setYearth(scmYearEnd.getYearth());
-//            List<Chirld> chirlds = new ArrayList<>();
-//            chirlds.add(chirld);
-//            scmYearEnd.setChirld(chirlds);
-//            ss = ss.add(BigDecimal.valueOf(Double.valueOf(scmYearEnd.getYearth())));
-//        }
-//        Workbook workbook = ExcelExportUtil.exportBigExcel(params,
-//                ScmYearEnd.class, scmYearEnds);
-//        CellStyle redCellStyle = workbook.createCellStyle();
-//        redCellStyle.setBorderBottom(BorderStyle.THIN);
-//        redCellStyle.setBorderLeft(BorderStyle.THIN);
-//        redCellStyle.setBorderTop(BorderStyle.THIN);
-//        redCellStyle.setBorderRight(BorderStyle.THIN);
-//        redCellStyle.setAlignment(HorizontalAlignment.CENTER);
-//        Font font = workbook.createFont();
-//        font.setColor(Font.COLOR_RED);
-//        redCellStyle.setFont(font);
-//        workbook.getSheet("年结").getRow( workbook.getSheet("年结").getLastRowNum()).getCell(2).setCellStyle(redCellStyle);
-//        workbook.getSheet("年结").getRow( workbook.getSheet("年结").getLastRowNum()).getCell(2).setCellValue(ss.toPlainString());
-//        //2: 实例化OutputString 对象
-//        String fileName = "年结信息表.xls";
-//        //解决 文件名称乱码问题  先把文件名转换为ASCII码
-//        fileName = URLEncoder.encode(fileName,"UTF-8");
+
+        //1、生成文件
+        ExportParams params = new ExportParams("年结信息表","年结");
+        params.setStyle(MyExcelStyle.class);
+        List<ScmYearEnd> scmYearEnds = scmYearEndMapper.selectByExample(new ScmYearEndExample());
+        BigDecimal ss = BigDecimal.ZERO;
+        for (ScmYearEnd scmYearEnd : scmYearEnds) {
+            Chirld chirld = new Chirld();
+            chirld.setTenantId(scmYearEnd.getTenantId());
+            chirld.setYearth(scmYearEnd.getYearth());
+            List<Chirld> chirlds = new ArrayList<>();
+            chirlds.add(chirld);
+            scmYearEnd.setChirld(chirlds);
+            ss = ss.add(BigDecimal.valueOf(Double.valueOf(scmYearEnd.getYearth())));
+        }
+        Workbook workbook = ExcelExportUtil.exportBigExcel(params,
+                ScmYearEnd.class, scmYearEnds);
+        CellStyle redCellStyle = workbook.createCellStyle();
+        redCellStyle.setBorderBottom(BorderStyle.THIN);
+        redCellStyle.setBorderLeft(BorderStyle.THIN);
+        redCellStyle.setBorderTop(BorderStyle.THIN);
+        redCellStyle.setBorderRight(BorderStyle.THIN);
+        redCellStyle.setAlignment(HorizontalAlignment.CENTER);
+        Font font = workbook.createFont();
+        font.setColor(Font.COLOR_RED);
+        redCellStyle.setFont(font);
+        workbook.getSheet("年结").getRow( workbook.getSheet("年结").getLastRowNum()).getCell(2).setCellStyle(redCellStyle);
+        workbook.getSheet("年结").getRow( workbook.getSheet("年结").getLastRowNum()).getCell(2).setCellValue(ss.toPlainString());
+        //2: 实例化OutputString 对象
+        String fileName = "年结信息表.xls";
+        //解决 文件名称乱码问题  先把文件名转换为ASCII码
+        fileName = URLEncoder.encode(fileName,"UTF-8");
         OutputStream output = response.getOutputStream();
         response.reset();
         response.setContentType("application/octet-stream; charset=utf-8");
         response.setHeader("Content-Disposition", "attachment; filename=" + "数据统计.xls");
+       
         workbook.write(output);
         output.close();
         return "success";
@@ -91,7 +91,7 @@ public class easyDemoController {
         //设置自定义样式
         //查询数据生成excel 文件
         Workbook workbook = ExcelExportUtil.exportExcel(new TemplateExportParams("templates/demo.xlsx", true), msg);
-        easyDemoController.workbook = workbook;
+//        easyDemoController.workbook = workbook;
         return "success";
     }
     

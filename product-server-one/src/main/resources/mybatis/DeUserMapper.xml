@@ -146,7 +146,7 @@
     -->
     insert into de_user (id, name, age, scoot
       )
-    values (#{id,jdbcType=CHAR}, #{name,jdbcType=VARCHAR}, #{age,jdbcType=INTEGER}, #{scoot,jdbcType=INTEGER}
+    values (#{id,jdbcType=CHAR}, #{name,jdbcType=VARCHAR}, #{age,jdbcType=INTEGER}, #{ecodeRule,jdbcType=INTEGER}
       )
   </insert>
   <insert id="insertSelective" parameterType="com.zt.demo.entity.DeUser" >

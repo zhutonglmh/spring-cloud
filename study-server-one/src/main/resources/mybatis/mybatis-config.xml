@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    <settings>-->
+<!--        <setting name="" value="" /> &lt;!&ndash;开启缓存等设置  mybatis 运行时行为&ndash;&gt;-->
+<!--    </settings>-->
+<!--    <typeAliases> &lt;!&ndash;为类型建立别名&ndash;&gt;-->
+<!--        <typeAlias type="tuling.DeUser" alias="user" />-->
+<!--    </typeAliases>-->
+<!--    &lt;!&ndash;处理JDBC类型与java类型的转换&ndash;&gt;-->
+<!--    <typeHandlers> </typeHandlers>-->
+<!--    &lt;!&ndash;提供默认构造器或者执行构造参数初始化目标类型的对象&ndash;&gt;-->
+<!--    <objectFactory type=""></objectFactory>-->
+<!--    <plugins>-->
+<!--        &lt;!&ndash;监控、分页、埋点都可以实现&ndash;&gt;-->
+<!--        &lt;!&ndash;mybatis 提供插件的方式来拦截映射  可以自己写拦截器 责任链模式&ndash;&gt;-->
+<!--        <plugin interceptor=""> </plugin>-->
+<!--    </plugins>-->
+    <environments default="development"><!--mybatis 允许配置多个环境-->
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/zt_demo"/>
+                <property name="username" value="root"/>
+                <property name="password" value="zhutong960607"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers><!--sql映射文件-->
+        <mapper resource="mybatis/deUserMapper.xml"/>
+        <mapper class="tuling.DeUserMapper"/>  <!--下面下面那行也可以-->
+        <!--<package name="tuling" />-->
+    </mappers>
+</configuration>
